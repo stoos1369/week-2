@@ -1,0 +1,82 @@
+//component
+.btn{
+    gap: 4px;
+    padding: 12px 24px;
+    border-radius: 32px;
+    color: $text-dark;
+    background-color: $btn-color;
+    &:hover{
+      background-color: $btn-color-hover;
+    }
+  }
+  .button-black{
+    color: $text-light;
+    background-color: $btn-color-dark;
+    &:hover{
+      background-color: $btn-color-dark-hover;
+    }
+  }
+  
+  //detail
+  .header{
+    background-color: $background-color;
+    .nav a{
+      color: $nav-color;
+        &:hover{
+          color: $nav-color-hover;
+        }
+    }
+    .nav-link{
+      display: block;
+    }
+  }
+  .banner{
+    background-color: $background-color;
+  }
+  .intro{
+    background-image: url('../images/background-img.png');
+      .intro-text{
+        color: $text-light;
+      }
+  }
+  .about-card{
+      flex-wrap: wrap;
+      max-width: 636px;
+      li{
+        max-width: 294px;
+        padding: 16px;
+        border: 1px solid #E3E3E3;
+        box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+      }
+  }
+  .about-content{
+      h2{
+        color: $text-dark;
+      }
+      p{
+        max-width: 526px;
+      }
+  }
+  .contact-me{
+    background-color: $background-color;
+  }
+  .social-media{
+    a:hover{
+      transition: transform 0.3s ease; 
+      transform: scale(1.2);
+      border-radius: 40px;
+      box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.90), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+  }
+  
+  .projects-title{
+    max-width: 746px;
+    margin-left: auto;
+    color: $text-dark;
+  }
+  .footer{
+    background-color: $background-color;
+    text-align: center;
+    color: $text-light;
+  }
+  

@@ -1,0 +1,119 @@
+*,*:before,*:after{
+    box-sizing:  border-box;
+  }
+
+body{
+    font-family: 'Bruno Ace SC', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+} 
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+}
+
+//內容資訊
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+h1{
+    color: #00FFA3;
+    font-size: 128px;
+}
+
+h2{
+    color: #FFF;
+    font-size: 64px;
+}
+
+.text-l{
+    font-size: 24px;
+}
+.text-m{
+    font-size: 20px;
+}
+
+ul{
+    list-style:none;
+}
+
+//佈局設定
+
+.pt-40{
+    padding-top: 40px;
+  }
+  
+  .py-40{
+    padding: 40px 0px;
+  }
+  .py-72{
+    padding: 72px 0px;
+  }
+  .py-96{
+    padding: 96px 0px;
+  }
+  .py-160{
+    padding: 160px 0px;
+  }
+  
+  .mr-24{
+    margin-right: 24px;
+  }
+  
+  .mb-4{
+    margin-bottom: 4px;
+  }
+  .mb-24{
+    margin-bottom: 24px;
+  }
+  .mb-28{
+    margin-bottom: 28px;
+  }
+  .mb-32{
+    margin-bottom: 32px;
+  }
+  .mb-36{
+    margin-bottom: 36px;
+  }
+  
+  .gap-16{
+    gap: 16px;
+  }
+  .gap-20{
+    gap: 20px;
+  }
+  .gap-24{
+    gap: 24px;
+  }
+
+//flex 設定
+
+  .flex{
+    display: flex;
+  }
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .jcsb{
+    display: flex;
+    justify-content: space-between;
+  }
+  .aic{
+    align-items: center;
+  }
+  
+// 參考助教的用法
+  .self-end {
+    align-self: flex-end;
+  }
+  .self-start {
+    align-self: flex-start;
+  }

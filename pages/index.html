@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>week2</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+<!-- banner -->
+    <div class="banner">
+      <div class="container py-72 jcsb aic">
+        <img src="../assets/images/people.png" alt="people">
+        <div class="banner-text flex-col">
+          <h2>Hi<br>I'm a front-end<br> developer</h2>
+          <h1 class="self-end">William</h1>
+            <a class="btn flex self-end" href="#">contact me<img src="../assets/images/arrow_outward.png" alt="arrow_outward"></a>
+        </div>
+      </div> 
+    </div>     
+<!-- Introduction -->
+    <div class="intro">
+      <div class="container py-160 jcsb">
+        <div class="intro-text">
+          <h2 class="mb-36">Introduction</h2>
+          <p class="mb-32 text-l">Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful<br> and responsive websites that provide an optimal user experience.</p>
+          <div class="deco gap-16 flex">
+            <img src="../assets/images/sparkle-sm.png" alt="sparkle-sm">
+            <img src="../assets/images/sparkle-sm.png" alt="sparkle-sm">
+            <img src="../assets/images/sparkle-sm.png" alt="sparkle-sm">
+          </div>
+        </div>
+        <div class="intro-img gap-24 flex">
+          <img src="../assets/images/sparkle.png" alt="sparkle">
+          <img src="../assets/images/photographer.png" alt="photographer">
+          <img src="../assets/images/people-2.png" alt="people-2">
+        </div>
+      </div>
+  </div>
+<!-- About me -->
+  <div class="container py-160 jcsb">
+      <ul class="about-card flex">
+        <li class="mb-24 mr-24">
+          <p class="text-m mb-4">01</p>
+          <p class="text-m mb-4">Attention to Detail</p>
+          <p>Meticulous code analysis and optimization.</p>
+        </li>
+        <li class="mb-24 mr-24">
+          <p class="text-m mb-4">02</p>
+          <p class="text-m mb-4">Adaptability</p>
+          <p>Swift learning of new technologies.</p>
+        </li>
+        <li class="mb-24 mr-24">
+          <p class="text-m mb-4">03</p>
+          <p class="text-m mb-4">Problem Solver</p>
+          <p>Identifying and resolving issues.</p>
+        </li>
+        <li class="mb-24 mr-24">
+          <p class="text-m mb-4">04</p>
+          <p class="text-m mb-4">Team Player</p>
+          <p>Collaborates and shares ideas.</p>
+        </li>
+      </ul>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and React. I have a strong understanding of user experience design and accessibility. I'm always learning new technologies and techniques to stay up-to-date in the field.</p>
+      </div>
+  </div>
+<!-- Contact me -->
+  <div class="contact-me">
+      <div class="container py-96 jcsb">
+        <div class="contact gap-16 flex aic">
+          <h2>CONTACT ME</h2>
+          <img src="../assets/images/trending_flat_black_24dp 1.png" alt="trending_flat_black_24dp 1">
+        </div>
+        <div class="social-media gap-20 flex">
+          <a href="#"><img src="../assets/images/discord.png" alt="discord"></a>
+          <a href="#"><img src="../assets/images/instagram.png" alt="instagram"></a>
+          <a href="#"><img src="../assets/images/message.png" alt="message"></a>
+        </div>
+      </div>
+  </div>
+<!-- My projects -->
+  <div class="container py-160 projects">
+        <h2 class="projects-title">My Projects</h2>     
+      <div class="project-content flex">
+          <img class="mr-24" src="../assets/images/Rectangle 10.png" alt="Rectangle 10"> 
+          <div>
+            <div class="project-content-card mb-28 flex">
+              <img class="mr-24" src="../assets/images/Rectangle 15.png" alt="Rectangle 15">
+             <div class="flex-col jcsb">
+                <p>I've worked on a variety of websites, including e-commerce sites, blogs, and landing pages. I take pride in creating clean, efficient, and user-friendly code.</p>
+                <a class="btn button-black flex self-start" href="#"><img src="../assets/images/arrow_outward-white.png" alt="arrow_outward-white">SEE MORE</a>
+              </div>
+            </div>
+              <div class="flex">
+                   <img class="mr-24" src="../assets/images/Rectangle 14.png" alt="Rectangle 14">
+                <img src="../assets/images/Rectangle 29.png" alt="Rectangle 29">
+              </div>
+          </div>
+      </div>  
+  </div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
